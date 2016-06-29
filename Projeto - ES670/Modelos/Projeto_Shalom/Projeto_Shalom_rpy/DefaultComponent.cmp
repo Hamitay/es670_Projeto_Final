@@ -1,0 +1,186 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID 4059455b-4fc0-4685-83d5-955d53287e11;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _objectCreation = "531937124320161528280653";
+	- _umlDependencyID = "3250";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 2db2fb59-04f4-4d9f-88f1-7d4e490364a8;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "531937324320161528278653";
+		- _umlDependencyID = "2102";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID bea34f7d-6b9d-441d-8f6a-8d7561b979b5;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID bea34f7d-6b9d-441d-8f6a-8d7561b979b5;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "531937524320161528276653";
+			- _umlDependencyID = "2910";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID e64b2614-dd6b-4c99-8684-b3ee3b0fae34;
+					- _objectCreation = "531937724320161528274653";
+					- _umlDependencyID = "1603";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\Uglaybe Piell\\Projeto_Shalom\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 48795318-112f-4325-ac02-dcdc084352ce;
+					- _objectCreation = "531937924320161528272653";
+					- _umlDependencyID = "1603";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\Uglaybe Piell\\Projeto_Shalom\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 151628e1-4a9d-46e2-90b2-2397dc7bfc8b;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "531938124320161528270653";
+				- _umlDependencyID = "2901";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 14aa98b5-3144-4d1e-844d-a0616d4dde53;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Componentes.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Componentes";
+			- _id = GUID ad68afc2-452c-4ab9-8635-f71554787d7d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Bluetooth_1.sbs";
+			- _subsystem = "Componentes";
+			- _class = "";
+			- _name = "Bluetooth";
+			- _id = GUID 943eb6ec-44d1-4aa7-b3aa-76c1558f616a;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Timers_1.sbs";
+			- _subsystem = "Componentes";
+			- _class = "";
+			- _name = "Timers";
+			- _id = GUID a14a33e1-daf9-4db9-85d1-b116dfda85d1;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "LCD_1.sbs";
+			- _subsystem = "Componentes";
+			- _class = "";
+			- _name = "LCD";
+			- _id = GUID da19e34b-9a99-4bb5-8ed4-e4c2a5d89250;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Sistema.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Sistema";
+			- _id = GUID d26bb46e-7bab-41bd-ab17-e485e6a60e31;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Util.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Util";
+			- _id = GUID ee3afe89-c49e-4971-b98f-5e505dbfbb75;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Main.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Main";
+			- _id = GUID f6ee09b7-8689-4a3a-8cd8-61cf9714e5e1;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 6.23.2016::16:40:43;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

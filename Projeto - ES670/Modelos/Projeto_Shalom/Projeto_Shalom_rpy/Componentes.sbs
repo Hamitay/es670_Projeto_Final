@@ -1,0 +1,181 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID ad68afc2-452c-4ab9-8635-f71554787d7d;
+	- _myState = 8192;
+	- _name = "Componentes";
+	- _objectCreation = "313640261720161426127631";
+	- _umlDependencyID = "2745";
+	- Dependencies = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IDependency 
+			- _id = GUID 226c832d-4598-4af0-a893-3eb0052417b8;
+			- _myState = 2048;
+			- _name = "Util";
+			- _objectCreation = "313642261720161426125631";
+			- _umlDependencyID = "1996";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Util.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Util";
+				- _id = GUID ee3afe89-c49e-4971-b98f-5e505dbfbb75;
+			}
+		}
+		{ IDependency 
+			- _id = GUID ebf28ee6-a09e-419a-aff3-767352bc41b9;
+			- _myState = 2048;
+			- _name = "Bluetooth";
+			- _objectCreation = "313644261720161426123631";
+			- _umlDependencyID = "2532";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Bluetooth_1.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "Bluetooth";
+				- _id = GUID 943eb6ec-44d1-4aa7-b3aa-76c1558f616a;
+			}
+		}
+		{ IDependency 
+			- _id = GUID 920642a4-6be4-4381-bec1-98dacf50d2a9;
+			- _myState = 2048;
+			- _name = "Timers";
+			- _objectCreation = "313646261720161426121631";
+			- _umlDependencyID = "2210";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Timers_1.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "Timers";
+				- _id = GUID a14a33e1-daf9-4db9-85d1-b116dfda85d1;
+			}
+		}
+		{ IDependency 
+			- _id = GUID c3def045-1ce8-4787-9d79-bfe86b12796d;
+			- _myState = 2048;
+			- _name = "LCD";
+			- _objectCreation = "313648261720161426119631";
+			- _umlDependencyID = "1802";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "LCD_1.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "LCD";
+				- _id = GUID da19e34b-9a99-4bb5-8ed4-e4c2a5d89250;
+			}
+		}
+		{ IDependency 
+			- _id = GUID ed72a79d-b666-48ed-8f63-907c15d09eab;
+			- _myState = 2048;
+			- _name = "Acelerometro";
+			- _objectCreation = "313650261720161426117631";
+			- _umlDependencyID = "2832";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Acelerometro.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "Acelerometro";
+				- _id = GUID 447c7542-ca64-4c34-a9c6-b6369d24716d;
+			}
+		}
+		{ IDependency 
+			- _id = GUID a5f1ae34-3a71-47a2-9799-6d5960c2a2e1;
+			- _myState = 2048;
+			- _name = "Switch";
+			- _objectCreation = "313652261720161426115631";
+			- _umlDependencyID = "2208";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Switch.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "Switch";
+				- _id = GUID a6ea7820-4b84-4791-aec7-24fc782ae46a;
+			}
+		}
+		{ IDependency 
+			- _id = GUID 273e1ad0-9daf-4845-90fc-425fba269ad4;
+			- _myState = 2048;
+			- _name = "TSI";
+			- _objectCreation = "313654261720161426113631";
+			- _umlDependencyID = "1822";
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "TSI.sbs";
+				- _subsystem = "Componentes";
+				- _class = "";
+				- _name = "TSI";
+				- _id = GUID f1b8e2a9-caaf-4c6f-8b10-e46b7d18bb94;
+			}
+		}
+	}
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Diagrama_de_Pacotes";
+		- _id = GUID 35307846-88c9-4285-9723-eee09ba77077;
+	}
+	- _lastID = 15;
+	- Declaratives = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Bluetooth_1";
+			- _id = GUID 943eb6ec-44d1-4aa7-b3aa-76c1558f616a;
+			- _name = "Bluetooth";
+		}
+		{ ISubsystem 
+			- fileName = "Timers_1";
+			- _id = GUID a14a33e1-daf9-4db9-85d1-b116dfda85d1;
+			- _name = "Timers";
+		}
+		{ ISubsystem 
+			- fileName = "LCD_1";
+			- _id = GUID da19e34b-9a99-4bb5-8ed4-e4c2a5d89250;
+			- _name = "LCD";
+		}
+		{ ISubsystem 
+			- fileName = "Switch";
+			- _id = GUID a6ea7820-4b84-4791-aec7-24fc782ae46a;
+		}
+		{ ISubsystem 
+			- fileName = "TSI";
+			- _id = GUID f1b8e2a9-caaf-4c6f-8b10-e46b7d18bb94;
+		}
+		{ ISubsystem 
+			- fileName = "Acelerometro";
+			- _id = GUID 447c7542-ca64-4c34-a9c6-b6369d24716d;
+		}
+	}
+	- weakCGTime = 6.26.2016::16:39:12;
+	- strongCGTime = 6.26.2016::16:39:12;
+	- _defaultComposite = GUID d348e42d-2ae1-4714-98a2-deccbbf178bd;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID d348e42d-2ae1-4714-98a2-deccbbf178bd;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "313752261720161426015631";
+			- _umlDependencyID = "2393";
+			- weakCGTime = 6.24.2016::14:16:20;
+			- strongCGTime = 6.24.2016::12:57:26;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 6.24.2016::14:16:20;
+}
+

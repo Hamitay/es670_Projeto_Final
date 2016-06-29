@@ -1,0 +1,180 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 14aa98b5-3144-4d1e-844d-a0616d4dde53;
+	- _myState = 8192;
+	- _name = "Default";
+	- _objectCreation = "20275772632016151800620";
+	- _umlDependencyID = "2241";
+	- Annotations = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 3843e416-20f3-4506-b2e4-113973ae355c;
+			- _myState = 2048;
+			- _name = "requirement_1";
+			- _objectCreation = "20275792632016151798620";
+			- _umlDependencyID = "2895";
+			- _description = { IDescription 
+				- _text = "REQ 1: Comunicar KL25Z com um Arduino utilizando Bluetooth";
+			}
+			- _body = "";
+		}
+		{ IRequirement 
+			- _id = GUID 83279c1a-1807-4d2b-b3ca-4ef39025ec48;
+			- _myState = 2048;
+			- _name = "requirement_2";
+			- _objectCreation = "20275812632016151796620";
+			- _umlDependencyID = "2887";
+			- _description = { IDescription 
+				- _text = "REQ 2: U";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID e888c14b-2a56-4cdb-ae85-eacec51a6680;
+			- _myState = 2048;
+			- _name = "comment_3";
+			- _objectCreation = "20275832632016151794620";
+			- _umlDependencyID = "2442";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs32 Projeto Shalom: Controle de ve\\'edculo remotamente.\\b\\line\\b0\\fs20\\par
+}
+";
+			}
+			- _body = "";
+		}
+	}
+	- _lastID = 8;
+	- weakCGTime = 6.26.2016::17:46:52;
+	- strongCGTime = 6.26.2016::16:37:9;
+	- _defaultComposite = GUID f924d9ef-e5fb-400b-9e5e-b780fdc436a5;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID f924d9ef-e5fb-400b-9e5e-b780fdc436a5;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "20275852632016151792620";
+			- _umlDependencyID = "2352";
+			- weakCGTime = 6.26.2016::17:46:37;
+			- strongCGTime = 6.26.2016::16:37:9;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = GUID 93322fb5-d603-414c-8133-4770250c2c9f;
+					- _myState = 10240;
+					- _name = "object_0";
+					- _objectCreation = "20275872632016151790620";
+					- _umlDependencyID = "2315";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 219f4664-34cf-405c-85c7-759d79e33d79;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 219f4664-34cf-405c-85c7-759d79e33d79;
+						- _myState = 10240;
+						- _name = "object_0";
+						- _objectCreation = "20275892632016151788620";
+						- _umlDependencyID = "2324";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Diagrama_de_Requisitos";
+							- _id = GUID 332bf2ff-a20d-4798-b425-2b98bd4ebf0e;
+						}
+						- weakCGTime = 6.23.2016::16:42:56;
+						- strongCGTime = 6.23.2016::16:42:56;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+				{ IPart 
+					- _id = GUID fd889896-847c-4c76-9235-de800513a9c6;
+					- _myState = 10240;
+					- _name = "object_1";
+					- _objectCreation = "20275912632016151786620";
+					- _umlDependencyID = "2316";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID cac57dbe-d288-4203-b18b-beb2bf26b8f0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID cac57dbe-d288-4203-b18b-beb2bf26b8f0;
+						- _myState = 10240;
+						- _name = "object_1";
+						- _objectCreation = "20275932632016151784620";
+						- _umlDependencyID = "2316";
+						- weakCGTime = 6.26.2016::17:46:37;
+						- strongCGTime = 6.24.2016::12:59:55;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 705daa98-85c1-46f0-aff8-bf17896d4051;
+			- _myState = 10240;
+			- _name = "interface_5";
+			- _objectCreation = "20275952632016151782620";
+			- _umlDependencyID = "2634";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Diagrama_de_Pacotes";
+				- _id = GUID 35307846-88c9-4285-9723-eee09ba77077;
+			}
+			- weakCGTime = 6.24.2016::12:45:35;
+			- strongCGTime = 6.24.2016::12:45:35;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 0;
+	}
+	- _configurationRelatedTime = 6.26.2016::17:46:52;
+}
+

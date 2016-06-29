@@ -1,0 +1,22 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 15;
+	- value = "Projects.rpl" ""
+	"Projeto_Shalom.rpy" ""
+	"Projeto_Shalom_rpy\\Acelerometro.sbs" "Componentes::Acelerometro"
+	"Projeto_Shalom_rpy\\Bluetooth_1.sbs" "Componentes::Bluetooth"
+	"Projeto_Shalom_rpy\\Componentes.sbs" "Componentes"
+	"Projeto_Shalom_rpy\\Default.sbs" "Default"
+	"Projeto_Shalom_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"Projeto_Shalom_rpy\\Factory.sbs" "Factory"
+	"Projeto_Shalom_rpy\\LCD_1.sbs" "Componentes::LCD"
+	"Projeto_Shalom_rpy\\Main.sbs" "Main"
+	"Projeto_Shalom_rpy\\Sistema.sbs" "Sistema"
+	"Projeto_Shalom_rpy\\Switch.sbs" "Componentes::Switch"
+	"Projeto_Shalom_rpy\\TSI.sbs" "Componentes::TSI"
+	"Projeto_Shalom_rpy\\Timers_1.sbs" "Componentes::Timers"
+	"Projeto_Shalom_rpy\\Util.sbs" "Util"
+	
+}
+
